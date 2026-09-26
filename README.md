@@ -7,9 +7,9 @@ name, and compare it with other hearts.
 Four hearts from a public dataset come with the project as examples. The point is the path from scan to model: bring
 your own segmentation, run one command, and it becomes one more heart on the Models panel.
 
-## Why we built it
+## Why I built it
 
-We want to show what AR glasses can do in a professional setting. The scenario is a cardiologist's office: the doctor
+I want to show what AR glasses can do in a professional setting. The scenario is a cardiologist's office: the doctor
 studies the heart in 3D instead of scrolling through grey slices, then turns it towards the patient to explain what
 they are looking at and what a procedure would involve.
 
@@ -27,8 +27,8 @@ The path to a real product exists, and most of it is already built:
 4. The glasses download the model over the internet when the doctor opens Open Heart.
 
 Today only step 3 is automated. The example labels come from the dataset's authors (step 2), the script runs by hand
-on a computer, and the models ship inside the project instead of being downloaded (step 4). The hard parts left are
-not the technology. They are protecting patient data (LGPD, HIPAA, GDPR) and getting regulatory approval.
+on a computer, and the models ship inside the project instead of being downloaded (step 4). What is missing is mostly
+not code: protecting patient data (LGPD, HIPAA, GDPR) and getting regulatory approval.
 
 It is open source so that developers in other fields can take the same approach: split a scan or a 3D model into
 named parts, then let people hold it, turn it and take it apart.
@@ -62,6 +62,17 @@ On the glasses you pinch with your fingers. In the Lens Studio preview, a mouse 
 | Press a button on the **Models** panel | Switch hearts |
 | Press a button on the **Layers** panel | Step that structure: solid, 30%, hidden. Each button has its structure's colour |
 | Pinch a panel's background and move | Move the panel. Panels always turn to face you |
+
+## Built without the glasses
+
+I'm Augusto, a developer in Brazil. The glasses are not sold here, and I have never worn a pair. Everything in this
+repository was built and tested in the Lens Studio preview: the interactive room with a mouse, and the webcam preview
+with my phone strapped to my forehead as the camera.
+
+That shaped the code. Grabbing, two-hand scaling, the buttons and the panels that turn to face you all come from the
+platform's own interaction and UI kits, which their makers tested on the device. The swipe to spin, and pointing again
+to stop it, are my own code, and nobody has tried them on real glasses yet. If you have a pair, a report would help a
+lot: open an issue with what worked and what did not.
 
 ## Run it
 
