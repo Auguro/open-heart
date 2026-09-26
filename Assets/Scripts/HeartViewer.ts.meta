@@ -1,0 +1,54 @@
+- !<AssetImportMetadata/f6d1ecd8-10a8-40c6-8ec4-1ab059344605>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 27f6248e-6d31-481d-bcda-5fd14fe4a828
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 27f6248e-6d31-481d-bcda-5fd14fe4a828
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> d5e69f75-ff15-41f9-92bf-54a5f6f760f6
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/d5e69f75-ff15-41f9-92bf-54a5f6f760f6>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 9ce778b3-250f-440c-bca8-41f8e95c5fa1
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    heartRoot: false
+    layersUI: false
+    modelsUI: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - heartRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      modelsUI: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      layersUI: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"Heart viewer: models, layers, grabbing and highlighting"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input SceneObject heartRoot {"hint":"Parent of the heart models (GLBs made by tools/seg_to_glb.py), in button order"}'
+    - '// @input AssignableType_1 modelsUI {"hint":"Panel with the model buttons"}'
+    - '// @input AssignableType_2 layersUI {"hint":"Panel with one opacity button per structure"}'

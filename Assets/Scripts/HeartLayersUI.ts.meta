@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/63feac75-ad62-4ec1-b5e7-940b826025da>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> d88b02eb-3757-4199-8929-58b0c48ef08d
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> d88b02eb-3757-4199-8929-58b0c48ef08d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> f9841d55-6dce-4092-b908-bc1a41c1ca6b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/f9841d55-6dce-4092-b908-bc1a41c1ca6b>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 14f6affd-3a0b-43bb-b8f1-2d5c70ce6f97
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    showLayers: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - showLayers: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"Heart panel: model buttons, or one opacity button per structure"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input bool showLayers {"hint":"Show one opacity button per structure instead of the model buttons"}'
