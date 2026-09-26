@@ -1,3 +1,22 @@
+# Shipped by Lens Studio
+
+# The lines below are automatically generated and updated by Lens Studio.
+# Please do not modify them manually, as changes will be overwritten each time!
+# If you want to make changes to this file, please put them either above or below this section.
+
+Cache/**
+PluginsUserPreferences/**
+Support/**
+BackUp/**
+Workspaces/**
+.vscode/**
+/jsconfig.json
+/tsconfig.json
+.DS_Store
+/spk_debug_key.pem
+*.lock
+
+# Shipped by Lens Studio
 # BEGIN Lens Studio managed Agents-Docs block
 .mcp.json
 .cursor/mcp.json
@@ -36,3 +55,7 @@ DEMO.md
 # Python
 __pycache__/
 .venv/
+
+# Lens Studio writes a .gitattributes that stores Assets/ and Packages/ in Git LFS. This repo is small (~20 MB) and
+# stays LFS-free, so a plain clone or a ZIP download from GitHub opens as is.
+.gitattributes

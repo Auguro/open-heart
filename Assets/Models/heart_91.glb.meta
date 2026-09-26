@@ -1,0 +1,456 @@
+- !<AssetImportMetadata/62e6fc6a-4464-44d7-acf4-c51a2b6f2d66>
+  ImportedAssetIds:
+    .hidden/Aorta: !<reference> cd3c3383-7545-49b4-b658-e05414be22d6
+    13b4a69a74a69ca3: !<reference> 7e47fb42-4518-4941-ba60-2b8f0a415ecc
+    190d480802ae8662: !<reference> f6dba9d6-1641-4884-9be5-663c2d253e96
+    1d57bc3a350c4355: !<reference> 0302ed14-49d5-4bd5-a77c-59b9bd884833
+    26ba073d67b9d0dd: !<reference> 20fa7ce1-0d6f-423b-81f5-cd0345fef5e9
+    3e1e03bda6e017c7: !<reference> a74c109e-fa24-4c83-aae0-d0490e763efe
+    3f125f624710500b: !<reference> 2ce7cef3-71dd-4a67-a71d-e2b87025d807
+    4dc8c08e7e9bbbfa: !<reference> 0766e2dc-f46e-4a99-95a2-966fcaf8d62e
+    76be3cd05f225484: !<reference> 7e58cb1d-fa38-4170-8904-902b6104a493
+    7a9e24212e4aa8cd: !<reference> 95a1c4a5-1bb9-4b16-8583-a9d422d350d1
+    7f8feafd89062954: !<reference> 1d04549f-68f1-41ae-8747-1e417402adc6
+    8250c8d6a11a4bea: !<reference> 213f9486-7102-45a1-a9b6-354c0a96eecc
+    88ab437fd121cc69: !<reference> 000a765a-4077-4e99-8c45-3f24c91883c1
+    8c2c6f3cf8d060fd: !<reference> bd1a5ae7-c90d-4327-8e15-de737f368162
+    8d36f37f497f3db1: !<reference> b56cb685-7bb9-4ae4-87db-e887a64c5ab8
+    94bade861f1d964c: !<reference> 1b304093-66fa-45cc-9cde-e960e02125b5
+    9e210a4eaf80868d: !<reference> 1e949015-0a02-4ef4-a485-9783de6e0c35
+    9f898e0bfa873355: !<reference> 4b655988-8699-48e7-8202-fc3b7dd437e5
+    Materials/Aorta: !<reference> 9418826e-9856-4dab-96cf-1a04b84b7f6a
+    Materials/Aorta|Aorta|GraphPassInfo: !<reference> 76430b86-b5f0-4b09-9803-b99e994634f6
+    Materials/CoronaryArteries: !<reference> 641d5dd2-8c78-48db-a8af-453061c003df
+    Materials/CoronaryArteries|CoronaryArteries|GraphPassInfo: !<reference> 7273e88c-3fac-4540-a7d9-27ea13c730db
+    Materials/HeartWall: !<reference> 478ff50b-e3ef-4629-8720-371b42f239b7
+    Materials/HeartWall|HeartWall|GraphPassInfo: !<reference> 60d75a44-9031-49e6-bd9b-5e049981a28b
+    Materials/LeftAtrium: !<reference> 640e66aa-3b26-41c5-9d8b-9f08252ed92e
+    Materials/LeftAtrium|LeftAtrium|GraphPassInfo: !<reference> 008405bc-150d-48f4-917a-5b167031265d
+    Materials/LeftVentricle: !<reference> 75fab3ca-2f7c-4f6f-bf06-17472eba72fe
+    Materials/LeftVentricle|LeftVentricle|GraphPassInfo: !<reference> 818503e2-b49d-43df-9b73-303852cc3674
+    Materials/PulmonaryArtery: !<reference> 3981885a-e815-4f2d-8972-b5c174456141
+    Materials/PulmonaryArtery|PulmonaryArtery|GraphPassInfo: !<reference> bf4b9248-d449-489e-bff1-0aa8e0f1514a
+    Materials/PulmonaryVeins: !<reference> e4f1c834-ea44-4420-bdff-86a211788bdc
+    Materials/PulmonaryVeins|PulmonaryVeins|GraphPassInfo: !<reference> 4b682247-fdea-4921-9145-189d3c29fb3b
+    Materials/RightAtrium: !<reference> e84b253e-5cbf-4ea6-bf5b-22b60cedb2d2
+    Materials/RightAtrium|RightAtrium|GraphPassInfo: !<reference> bc7515cf-533c-45a8-b5bc-1fd3603e6dad
+    Materials/RightVentricle: !<reference> 163394be-f61e-454d-92ae-9a268d0396df
+    Materials/RightVentricle|RightVentricle|GraphPassInfo: !<reference> 59701a8e-e76b-4f00-b5ae-061f07bde5e3
+    Meshes/Aorta: !<reference> ada785d5-6259-4082-b4d9-008b9954fc4c
+    Meshes/CoronaryArteries: !<reference> cf0fefad-0de2-47fa-a06d-54b49d9524e9
+    Meshes/HeartWall: !<reference> 8959d09c-dbcd-4857-801f-5af5819de67c
+    Meshes/LeftAtrium: !<reference> 2c879308-6e51-4629-bb2f-d8cf5ca41e46
+    Meshes/LeftVentricle: !<reference> 1d074edb-cacc-469c-a20d-c7f0408ce22c
+    Meshes/PulmonaryArtery: !<reference> 2f364af3-e013-4644-a8a3-851d6cd33338
+    Meshes/PulmonaryVeins: !<reference> 3f9b6ab9-111d-4201-864a-e92865366373
+    Meshes/RightAtrium: !<reference> f9906f79-b90e-4deb-a2e5-68c8be9677c1
+    Meshes/RightVentricle: !<reference> eff0962f-fa0c-4d94-8c13-92c45dffbffb
+    Scene: !<reference> bbf87641-1f3b-436f-bdad-863f389ad3f1
+    a17d2a8a107f519f: !<reference> 11f851bb-eda4-49e6-b573-4d327d82e2f0
+    b619c29d752c94c2: !<reference> 76375006-2cb6-48ca-be3c-a83f9319c4d8
+    cd336c734aac24bf: !<reference> 8806dceb-f65b-46ad-8c2e-bc8924ea8270
+    d2dcbdd2c46e69e0: !<reference> 35be1b5c-2bd2-40d7-97b4-896184573a05
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> bbf87641-1f3b-436f-bdad-863f389ad3f1
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 307c480a-f87b-4369-980d-f8463d0c3ae9
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+    OptimizeMesh: true
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<SceneObject/000a765a-4077-4e99-73ba-c0db36e77c3e>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> bd1a5ae7-c90d-4327-71ea-218c80c97e9d
+  Components:
+    []
+- !<SceneObject/0302ed14-49d5-4bd5-5883-a6464277b7cc>
+  PrefabRemaps:
+    []
+  Name: PulmonaryVeins
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0766e2dc-f46e-4a99-6a5d-6990350729d1
+- !<RenderMeshVisual/0766e2dc-f46e-4a99-6a5d-6990350729d1>
+  PrefabRemaps:
+    []
+  Name: PulmonaryVeins
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e4f1c834-ea44-4420-bdff-86a211788bdc
+  Mesh: !<reference> 3f9b6ab9-111d-4201-864a-e92865366373
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/11f851bb-eda4-49e6-4a8c-b2cd827d1d0f>
+  PrefabRemaps:
+    []
+  Name: LeftVentricle
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f6dba9d6-1641-4884-641a-99c3d2dac169
+- !<SceneObject/1b304093-66fa-45cc-6321-169f1fdeda4a>
+  PrefabRemaps:
+    []
+  Name: HeartWall
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 76375006-2cb6-48ca-41c3-57c06ce63b27
+- !<RenderMeshVisual/1d04549f-68f1-41ae-78b8-e1be8bfd5239>
+  PrefabRemaps:
+    []
+  Name: RightAtrium
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e84b253e-5cbf-4ea6-bf5b-22b60cedb2d2
+  Mesh: !<reference> f9906f79-b90e-4deb-a2e5-68c8be9677c1
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/1e949015-0a02-4ef4-5b7a-687c2191f3ca>
+  PrefabRemaps:
+    []
+  Name: PulmonaryArtery
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 3981885a-e815-4f2d-8972-b5c174456141
+  Mesh: !<reference> 2f364af3-e013-4644-a8a3-851d6cd33338
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/20fa7ce1-0d6f-423b-7e0a-32fcba010a16>
+  PrefabRemaps:
+    []
+  Name: heart_91
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 000a765a-4077-4e99-73ba-c0db36e77c3e
+  Components:
+    []
+- !<SceneObject/213f9486-7102-45a1-5649-cab3f5691133>
+  PrefabRemaps:
+    []
+  Name: Aorta
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8806dceb-f65b-46ad-73d1-4376db157d8f
+- !<SceneObject/2ce7cef3-71dd-4a67-58e2-1d478fda27f8>
+  PrefabRemaps:
+    []
+  Name: CoronaryArteries
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a74c109e-fa24-4c83-551f-2fb6f189c101
+- !<ObjectPrefabAssetData/307c480a-f87b-4369-980d-f8463d0c3ae9>
+  Prototype: !<ObjectOwner/a6b08021-0c12-4548-9377-61dc50d11386>
+    PackagePath: ""
+    objects:
+      - !<own> 20fa7ce1-0d6f-423b-7e0a-32fcba010a16
+- !<RenderMeshVisual/35be1b5c-2bd2-40d7-684b-769e7ba8c5fa>
+  PrefabRemaps:
+    []
+  Name: LeftAtrium
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 640e66aa-3b26-41c5-9d8b-9f08252ed92e
+  Mesh: !<reference> 2c879308-6e51-4629-bb2f-d8cf5ca41e46
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/4b655988-8699-48e7-7dfd-03c4822bc81a>
+  PrefabRemaps:
+    []
+  Name: RightVentricle
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 163394be-f61e-454d-92ae-9a268d0396df
+  Mesh: !<reference> eff0962f-fa0c-4d94-8c13-92c45dffbffb
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/76375006-2cb6-48ca-41c3-57c06ce63b27>
+  PrefabRemaps:
+    []
+  Name: HeartWall
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 478ff50b-e3ef-4629-8720-371b42f239b7
+  Mesh: !<reference> 8959d09c-dbcd-4857-801f-5af5819de67c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/7e47fb42-4518-4941-459f-d470f5bea133>
+  PrefabRemaps:
+    []
+  Name: PulmonaryArtery
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1e949015-0a02-4ef4-5b7a-687c2191f3ca
+- !<SceneObject/7e58cb1d-fa38-4170-76fb-6fd49efb5b6c>
+  PrefabRemaps:
+    []
+  Name: RightVentricle
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4b655988-8699-48e7-7dfd-03c4822bc81a
+- !<RenderMeshVisual/8806dceb-f65b-46ad-73d1-4376db157d8f>
+  PrefabRemaps:
+    []
+  Name: Aorta
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 9418826e-9856-4dab-96cf-1a04b84b7f6a
+  Mesh: !<reference> ada785d5-6259-4082-b4d9-008b9954fc4c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/95a1c4a5-1bb9-4b16-7a7c-562bdd2caf2e>
+  PrefabRemaps:
+    []
+  Name: LeftAtrium
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 35be1b5c-2bd2-40d7-684b-769e7ba8c5fa
+- !<RenderMeshVisual/a74c109e-fa24-4c83-551f-2fb6f189c101>
+  PrefabRemaps:
+    []
+  Name: CoronaryArteries
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 641d5dd2-8c78-48db-a8af-453061c003df
+  Mesh: !<reference> cf0fefad-0de2-47fa-a06d-54b49d9524e9
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b56cb685-7bb9-4ae4-7824-177859b3a547>
+  PrefabRemaps:
+    []
+  Name: RightAtrium
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1d04549f-68f1-41ae-78b8-e1be8bfd5239
+- !<SceneObject/bd1a5ae7-c90d-4327-71ea-218c80c97e9d>
+  PrefabRemaps:
+    []
+  Name: Scene0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 95a1c4a5-1bb9-4b16-7a7c-562bdd2caf2e
+    - !<own> 11f851bb-eda4-49e6-4a8c-b2cd827d1d0f
+    - !<own> b56cb685-7bb9-4ae4-7824-177859b3a547
+    - !<own> 7e58cb1d-fa38-4170-76fb-6fd49efb5b6c
+    - !<own> 213f9486-7102-45a1-5649-cab3f5691133
+    - !<own> 7e47fb42-4518-4941-459f-d470f5bea133
+    - !<own> 2ce7cef3-71dd-4a67-58e2-1d478fda27f8
+    - !<own> 0302ed14-49d5-4bd5-5883-a6464277b7cc
+    - !<own> 1b304093-66fa-45cc-6321-169f1fdeda4a
+  Components:
+    []
+- !<RenderMeshVisual/f6dba9d6-1641-4884-641a-99c3d2dac169>
+  PrefabRemaps:
+    []
+  Name: LeftVentricle
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 75fab3ca-2f7c-4f6f-bf06-17472eba72fe
+  Mesh: !<reference> 1d074edb-cacc-469c-a20d-c7f0408ce22c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

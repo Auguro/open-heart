@@ -4,7 +4,7 @@ Open Heart turns a cardiac CT scan into a 3D heart that stands in the room with 
 scan's segmentation into a model, and the viewer lets you peel it layer by layer, point at a structure to see its
 name, and compare it with other hearts.
 
-Three hearts from a public dataset come with the project as examples. The point is the path from scan to model: bring
+Four hearts from a public dataset come with the project as examples. The point is the path from scan to model: bring
 your own segmentation, run one command, and it becomes one more heart on the Models panel.
 
 ## Why we built it
@@ -38,7 +38,7 @@ named parts, then let people hold it, turn it and take it apart.
 
 ## What is in it
 
-- **Three example hearts from three people**, shown at their true size relative to each other: the largest is 16 cm tall.
+- **Four example hearts from four people**, shown at their true size relative to each other: the largest is 16 cm tall.
   Each one has its own muscle wall and coronary arteries.
 - **Nine structures:** the four chambers, the aorta, the pulmonary artery, the pulmonary veins, the coronary arteries
   and the muscle wall. Each one can be solid, see-through or hidden.
@@ -68,7 +68,7 @@ On the glasses you pinch with your fingers. In the Lens Studio preview, a mouse 
 1. Install Lens Studio 5.24 or newer.
 2. Open `OpenHeart.esproj`.
 3. The Preview panel runs it. If it shows a phone, pick the AR glasses in the Preview panel's device menu. The first
-   seconds can be slow while the three models load. The models are in `Assets/Models`, so nothing else needs to be
+   seconds can be slow while the four models load. The models are in `Assets/Models`, so nothing else needs to be
    installed.
 
 **Hands without glasses:** switch the Preview panel to webcam input and wear the camera on your forehead. A phone
@@ -109,7 +109,7 @@ the order of `HeartRoot`'s children.
 | --- | --- |
 | `Assets/Scripts/HeartViewer.ts` | Loads the models, applies the layers, and handles grabbing, spinning and highlighting |
 | `Assets/Scripts/HeartLayersUI.ts` | The Models and Layers panels, built from UI Kit components |
-| `Assets/Models/` | The three hearts, as GLB files |
+| `Assets/Models/` | The four hearts, as GLB files |
 | `tools/seg_to_glb.py` | Segmentation to GLB |
 
 ## Data and credits
@@ -126,6 +126,7 @@ coronary CT angiography scans.
 | Heart 1 | 113 |
 | Heart 2 | 133 |
 | Heart 3 | 13 |
+| Heart 4 | 91 |
 
 The dataset has no diagnoses, so none are shown.
 
