@@ -7,17 +7,7 @@ name, and compare it with other hearts.
 Four hearts from a public dataset come with the project as examples. The point is the path from scan to model: bring
 your own segmentation, run one command, and it becomes one more heart on the Models panel.
 
-## Why I built it
-
-I want to show what AR glasses can do in a professional setting. The scenario is a cardiologist's office: the doctor
-studies the heart in 3D instead of scrolling through grey slices, then turns it towards the patient to explain what
-they are looking at and what a procedure would involve.
-
-Today Open Heart is an education and communication demo. The longer-term vision is a tool that works from a patient's
-own scan and helps doctors reason about a case. That would take clinical validation and regulatory approval, which
-this project does not have.
-
-### Where the idea came from
+## Where the idea came from
 
 In dentistry, 3D imaging already supports specialists' decisions every day. Cone beam CT software is how many of them
 look at a tooth before treating it, and the case for it was made with data: in Estrela et al. (2008), periapical and
@@ -29,11 +19,20 @@ measure anything; it shows anatomy. If a tool like it ever reaches a clinic, it 
 [^1]: Estrela C, Bueno MR, Leles CR, Azevedo B, Azevedo JR. Accuracy of cone beam computed tomography and panoramic
     and periapical radiography for detection of apical periodontitis. *Journal of Endodontics*. 2008;34(3):273–279.
 
+## Why I built it
+
+I want to show what AR glasses can do in a professional setting. The scenario is a cardiologist's office: the doctor
+studies the heart in 3D instead of scrolling through grey slices, then turns it towards the patient to explain what
+they are looking at and what a procedure would involve.
+
+It is open source so that developers in other fields can take the same approach: split a scan or a 3D model into
+named parts, then let people hold it, turn it and take it apart.
+
 ### From scan to glasses
 
 The path to a real product needs little new technology:
 
-1. The doctor uploads the CT scan to a server.
+1. The doctor uploads the patient's CT scan to a server.
 2. An AI segmentation model labels the heart's structures. Open-source models that do this already exist.
 3. `tools/seg_to_glb.py`, from this project, turns the labels into a 3D model.
 4. The glasses download the model over the internet when the doctor opens Open Heart.
@@ -41,9 +40,6 @@ The path to a real product needs little new technology:
 Today only step 3 is automated. The example labels come from the dataset's authors (step 2), the script runs by hand
 on a computer, and the models ship inside the project instead of being downloaded (step 4). What is missing is mostly
 not code: protecting patient data (LGPD, HIPAA, GDPR) and getting regulatory approval.
-
-It is open source so that developers in other fields can take the same approach: split a scan or a 3D model into
-named parts, then let people hold it, turn it and take it apart.
 
 > **Education and discussion only.** This is not a medical device and must not be used for diagnosis or treatment
 > decisions.
@@ -57,8 +53,6 @@ named parts, then let people hold it, turn it and take it apart.
 - **Names on demand:** tap a structure and every other one turns grey while its name appears above the heart.
 - **Textbook conventions:** the anterior view that anatomy atlases use, R and L markers for the patient's right and
   left, red where blood carries oxygen, blue where it does not, and ivory coronary arteries.
-- **A pipeline for your own scans:** `tools/seg_to_glb.py` turns a labelled CT segmentation into a model the viewer
-  can load.
 
 ## Controls
 
