@@ -119,7 +119,7 @@ the order of `HeartRoot`'s children.
 | Path | What it does |
 | --- | --- |
 | `Assets/Scripts/HeartViewer.ts` | Loads the models, applies the layers, and handles grabbing, spinning and highlighting |
-| `Assets/Scripts/HeartLayersUI.ts` | The Models and Layers panels, built from UI Kit components |
+| `Assets/Scripts/HeartLayersUI.ts` | The Models and Layers panels, built from the platform's UI components |
 | `Assets/Models/` | The four hearts, as GLB files |
 | `tools/seg_to_glb.py` | Segmentation to GLB |
 
