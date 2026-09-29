@@ -17,6 +17,20 @@ Today Open Heart is an education and communication demo. The longer-term vision 
 own scan and helps doctors reason about a case. That would take clinical validation and regulatory approval, which
 this project does not have.
 
+### Where the idea came from
+
+In dentistry, 3D imaging already supports specialists' decisions every day. Cone beam CT software is how many of them
+look at a tooth before treating it, and the case for it was made with data: in Estrela et al. (2008), periapical and
+panoramic radiographs found only 55% and 28% of the apical periodontitis lesions that cone beam CT showed.[^1] A 3D
+view caught what flat images missed.
+
+That result is what made me look at cardiac CT, and at AR glasses as a way to see it. Open Heart does not detect or
+measure anything; it shows anatomy. I built it to show the path, and I hope it leads to commercial tools for other
+fields that get validated the way cone beam CT was.
+
+[^1]: Estrela C, Bueno MR, Leles CR, Azevedo B, Azevedo JR. Accuracy of cone beam computed tomography and panoramic
+    and periapical radiography for detection of apical periodontitis. *Journal of Endodontics*. 2008;34(3):273–279.
+
 ### From scan to glasses
 
 The path to a real product exists, and most of it is already built:
