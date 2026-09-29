@@ -70,9 +70,11 @@ repository was built and tested in the Lens Studio preview: the interactive room
 with my phone strapped to my forehead as the camera.
 
 That shaped the code. Grabbing, two-hand scaling, the buttons and the panels that turn to face you all come from the
-platform's own interaction and UI kits, which their makers tested on the device. The swipe to spin, and pointing again
-to stop it, are my own code, and nobody has tried them on real glasses yet. If you have a pair, a report would help a
-lot: open an issue with what worked and what did not.
+platform's own interaction and UI kits, which their makers tested on the device. I also ran them through simulated
+hands in the editor: the layer and model buttons, the highlight, two-hand scaling, and a full-arm reach test on both
+panels all pass. The swipe to spin, and pointing again to stop it, are my own code and cannot be simulated there,
+because a simulated hand has no pointing ray. Nobody has tried them on real glasses yet. If you have a pair, a report
+would help a lot: open an issue with what worked and what did not.
 
 ## Run it
 

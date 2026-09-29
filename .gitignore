@@ -36,8 +36,12 @@ AGENTS.md
 CLAUDE.md
 .virtual-scene*.json
 
-# Local-only preview test tooling
+# Local-only preview test tooling (LEAF simulated-hand tests stay out of the repo)
 Packages/AiPreviewAgent*
+Packages/Leaf.lspkg*
+Packages/Bitmoji 3D.lsc*
+Assets/LeafTests/
+Assets/LeafTests.meta
 
 # Internal session notes (Portuguese)
 HANDOFF.md
@@ -50,3 +54,6 @@ __pycache__/
 # Lens Studio writes a .gitattributes that stores Assets/ and Packages/ in Git LFS. This repo is small (~20 MB) and
 # stays LFS-free, so a plain clone or a ZIP download from GitHub opens as is.
 .gitattributes
+
+# Added by Lens Studio (LEAF plugin)
+leaf_plugin_settings.json
