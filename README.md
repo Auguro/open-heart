@@ -21,19 +21,17 @@ this project does not have.
 
 In dentistry, 3D imaging already supports specialists' decisions every day. Cone beam CT software is how many of them
 look at a tooth before treating it, and the case for it was made with data: in Estrela et al. (2008), periapical and
-panoramic radiographs found only 55% and 28% of the apical periodontitis lesions that cone beam CT showed.[^1] A 3D
-view caught what flat images missed.
+panoramic radiographs found only 55% and 28% of the apical periodontitis lesions that cone beam CT showed.[^1]
 
 That result is what made me look at cardiac CT, and at AR glasses as a way to see it. Open Heart does not detect or
-measure anything; it shows anatomy. I built it to show the path, and I hope it leads to commercial tools for other
-fields that get validated the way cone beam CT was.
+measure anything; it shows anatomy. If a tool like it ever reaches a clinic, it will need a study like that one first.
 
 [^1]: Estrela C, Bueno MR, Leles CR, Azevedo B, Azevedo JR. Accuracy of cone beam computed tomography and panoramic
     and periapical radiography for detection of apical periodontitis. *Journal of Endodontics*. 2008;34(3):273–279.
 
 ### From scan to glasses
 
-The path to a real product exists, and most of it is already built:
+The path to a real product needs little new technology:
 
 1. The doctor uploads the CT scan to a server.
 2. An AI segmentation model labels the heart's structures. Open-source models that do this already exist.
@@ -64,7 +62,7 @@ named parts, then let people hold it, turn it and take it apart.
 
 ## Controls
 
-On the glasses you pinch with your fingers. In the Lens Studio preview, a mouse click does the same.
+On the glasses you pinch with your fingers. In the editor's preview, a mouse click does the same.
 
 | Do this | To |
 | --- | --- |
@@ -80,7 +78,7 @@ On the glasses you pinch with your fingers. In the Lens Studio preview, a mouse 
 ## Built without the glasses
 
 I'm Augusto, a developer in Brazil. The glasses are not sold here, and I have never worn a pair. Everything in this
-repository was built and tested in the Lens Studio preview: the interactive room with a mouse, and the webcam preview
+repository was built and tested in the editor's preview: the interactive room with a mouse, and the webcam preview
 with my phone strapped to my forehead as the camera.
 
 That shaped the code. Grabbing, two-hand scaling, the buttons and the panels that turn to face you all come from the
@@ -99,7 +97,7 @@ would help a lot: open an issue with what worked and what did not.
    installed.
 
 **Hands without glasses:** switch the Preview panel to webcam input and wear the camera on your forehead. A phone
-running a webcam app works. Lens Studio mirrors webcam input, so flip the image horizontally in the webcam app to undo
+running a webcam app works. The editor mirrors webcam input, so flip the image horizontally in the webcam app to undo
 it. Webcam hand tracking is much rougher than the glasses', so swipes and pinches work less reliably there.
 
 ## Add your own heart
