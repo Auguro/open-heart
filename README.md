@@ -17,7 +17,7 @@ your own segmentation, run one command, and it becomes one more heart on the Mod
   <a href="#data-and-credits">Data and credits</a>
 </p>
 
-https://github.com/user-attachments/assets/4d1c8038-4b75-45ff-b831-683b5a205422
+https://github.com/user-attachments/assets/372737eb-bb16-427c-a011-2612312dae03
 
 https://github.com/user-attachments/assets/d2f8532b-f821-4ea9-ac5d-a2a04683cd01
 
