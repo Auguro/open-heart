@@ -95,6 +95,8 @@ README were recorded in the editor's preview.
 
 ## Built without the glasses
 
+<img src="docs/phone-on-forehead.gif" align="right" width="260" alt="The webcam preview from a phone strapped to my forehead, with the heart floating in my room">
+
 I'm Augusto, a developer in Brazil. The glasses are not sold here, and I have never worn a pair. Everything in this
 repository was built and tested in the editor's preview: the interactive room with a mouse, and the webcam preview
 with my phone strapped to my forehead as the camera.
