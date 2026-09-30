@@ -63,7 +63,7 @@ not code: protecting patient data (LGPD, HIPAA, GDPR) and getting regulatory app
 
 | Peel the layers | Tap for a name | Compare hearts |
 | :---: | :---: | :---: |
-| <img src="docs/layers.gif" width="220" alt="Hiding the muscle wall, then the right chambers, one layer at a time"> | <img src="docs/highlight.gif" width="220" alt="Tapping structures one by one greys out the rest and shows each name"> | <img src="docs/compare.gif" width="220" alt="Switching between hearts from different people in the same pose"> |
+| <img src="docs/layers.gif" width="220" alt="Hiding the muscle wall, then the right chambers, one layer at a time"> | <img src="docs/highlight.gif" width="220" alt="Tapping structures one by one greys out the rest and shows each name"> | <img src="docs/compare-hearts.gif" width="220" alt="Switching between hearts from different people in the same pose"> |
 
 - **Four example hearts from four people**, shown at their true size relative to each other: the largest is 16 cm tall.
   Each one has its own muscle wall and coronary arteries.
