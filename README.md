@@ -136,8 +136,8 @@ python tools/seg_to_glb.py 113.img.nii.gz Assets/Models/heart_113.glb
 ```
 
 <p align="center">
-  <img src="docs/scan-labels.gif" width="320" alt="Axial slices of case 91's labels, each structure in the same colour as the viewer">
-  <br><sub>What the script reads: case 91's labels, slice by slice, in the viewer's colours.</sub>
+  <img src="docs/scan-ct.gif" width="320" alt="Axial slices of a cardiac CT with the contrast-filled blood tinted red">
+  <br><sub>Where every heart starts: a cardiac CT, slice by slice, with the contrast-filled blood in red.</sub>
 </p>
 
 The input is one of the dataset's `segmentations/<case>.img.nii.gz` files (see Data and credits), with these labels:
@@ -175,8 +175,12 @@ The hearts come from the whole-heart labels of Hansen B, Pedersen J, Kofoed KF, 
 [github.com/Bjonze/Public-Cardiac-CT-Dataset](https://github.com/Bjonze/Public-Cardiac-CT-Dataset). Those labels are
 drawn on the public
 [ImageCAS](https://github.com/XiaoweiXu/ImageCAS-A-Large-Scale-Dataset-and-Benchmark-for-Coronary-Artery-Segmentation-based-on-CT)
-coronary CT angiography scans. The grey CT slices at the start of the demo video are case 91's scan from ImageCAS,
-licensed [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/); no CT image is stored in this repository.
+coronary CT angiography scans.
+
+The CT slices at the start of the demo video and in `docs/scan-ct.gif` are patient 1 of Xuesong Lu's
+[*cardiac ct data_15sets*](https://figshare.com/articles/dataset/cardiac_ct_data_15sets/1379059), licensed
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). I added the red overlay, which marks the contrast-filled
+blood.
 
 | Model | Case |
 | --- | --- |
@@ -196,5 +200,6 @@ licensed [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
 
 ## License
 
-Code: MIT (see `LICENSE`). Heart models: CC BY 4.0, as above. The cone beam CT image: CC BY 3.0, as above. The packages
+Code: MIT (see `LICENSE`). Heart models and the CT slices: CC BY 4.0, as above. The cone beam CT image: CC BY 3.0,
+as above. The packages
 in `Packages/` belong to their authors and keep their own licenses.
