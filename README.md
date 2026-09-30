@@ -1,3 +1,11 @@
+
+
+https://github.com/user-attachments/assets/d2f8532b-f821-4ea9-ac5d-a2a04683cd01
+
+
+https://github.com/user-attachments/assets/4d1c8038-4b75-45ff-b831-683b5a205422
+
+
 # Open Heart
 
 Open Heart turns a cardiac CT scan into a 3D heart that stands in the room with you. A Python script converts the
