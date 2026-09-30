@@ -1,12 +1,19 @@
-
-
-https://github.com/user-attachments/assets/d2f8532b-f821-4ea9-ac5d-a2a04683cd01
-
-
-https://github.com/user-attachments/assets/4d1c8038-4b75-45ff-b831-683b5a205422
-
-
 # Open Heart
+
+[What is in it](#what-is-in-it) · [Controls](#controls) · [Run it](#run-it) · [Add your own heart](#add-your-own-heart) ·
+[Where the idea came from](#where-the-idea-came-from) · [Built without the glasses](#built-without-the-glasses) ·
+[Data and credits](#data-and-credits)
+
+<table>
+  <tr>
+    <th width="50%">The 30-second demo</th>
+    <th width="50%">Using it in the editor's preview</th>
+  </tr>
+  <tr>
+    <td><video src="https://github.com/user-attachments/assets/4d1c8038-4b75-45ff-b831-683b5a205422" controls width="100%"></video></td>
+    <td><video src="https://github.com/user-attachments/assets/d2f8532b-f821-4ea9-ac5d-a2a04683cd01" controls muted width="100%"></video></td>
+  </tr>
+</table>
 
 Open Heart turns a cardiac CT scan into a 3D heart that stands in the room with you. A Python script converts the
 scan's segmentation into a model, and the viewer lets you peel it layer by layer, point at a structure to see its
@@ -14,11 +21,6 @@ name, and compare it with other hearts.
 
 Four hearts from a public dataset come with the project as examples. The point is the path from scan to model: bring
 your own segmentation, run one command, and it becomes one more heart on the Models panel.
-
-<p align="center">
-  <img src="docs/spin.gif" width="600" alt="A swipe spins the heart like a trackball in any direction">
-  <br><sub>A swipe spins the heart; pointing at it again stops it. All clips were recorded in the editor's preview.</sub>
-</p>
 
 ## Where the idea came from
 
@@ -73,7 +75,13 @@ not code: protecting patient data (LGPD, HIPAA, GDPR) and getting regulatory app
 
 ## Controls
 
-On the glasses you pinch with your fingers. In the editor's preview, a mouse click does the same.
+On the glasses you pinch with your fingers. In the editor's preview, a mouse click does the same. All the clips in this
+README were recorded in the editor's preview.
+
+<p align="center">
+  <img src="docs/spin.gif" width="480" alt="A swipe spins the heart like a trackball in any direction">
+  <br><sub>A swipe spins the heart; pointing at it again stops it.</sub>
+</p>
 
 | Do this | To |
 | --- | --- |
