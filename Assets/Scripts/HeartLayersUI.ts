@@ -1,4 +1,4 @@
-// Heart control panels, built from SpectaclesUIKit primitives: big buttons that switch between the heart models,
+// Heart control panels, built from the UI kit's primitives: big buttons that switch between the heart models,
 // or one button per structure, in that structure's colour, that steps its opacity (solid, see-through, hidden).
 // A panel always turns to face you; pinching or clicking its background, not a button, moves it.
 import {FlexLayout} from "SpectaclesUIKit.lspkg/Scripts/Components/Layout2D/Flex/FlexLayout"

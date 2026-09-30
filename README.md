@@ -136,8 +136,8 @@ python tools/seg_to_glb.py 113.img.nii.gz Assets/Models/heart_113.glb
 ```
 
 <p align="center">
-  <img src="docs/scan.gif" width="320" alt="Axial CT slices of case 91 with the labelled structures in the same colours as the viewer">
-  <br><sub>What the script reads: case 91's CT slices with their labels, in the viewer's colours.</sub>
+  <img src="docs/scan-labels.gif" width="320" alt="Axial slices of case 91's labels, each structure in the same colour as the viewer">
+  <br><sub>What the script reads: case 91's labels, slice by slice, in the viewer's colours.</sub>
 </p>
 
 The input is one of the dataset's `segmentations/<case>.img.nii.gz` files (see Data and credits), with these labels:
@@ -175,7 +175,8 @@ The hearts come from the whole-heart labels of Hansen B, Pedersen J, Kofoed KF, 
 [github.com/Bjonze/Public-Cardiac-CT-Dataset](https://github.com/Bjonze/Public-Cardiac-CT-Dataset). Those labels are
 drawn on the public
 [ImageCAS](https://github.com/XiaoweiXu/ImageCAS-A-Large-Scale-Dataset-and-Benchmark-for-Coronary-Artery-Segmentation-based-on-CT)
-coronary CT angiography scans.
+coronary CT angiography scans. The grey CT slices at the start of the demo video are case 91's scan from ImageCAS,
+licensed [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/); no CT image is stored in this repository.
 
 | Model | Case |
 | --- | --- |
