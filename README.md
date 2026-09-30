@@ -7,6 +7,11 @@ name, and compare it with other hearts.
 Four hearts from a public dataset come with the project as examples. The point is the path from scan to model: bring
 your own segmentation, run one command, and it becomes one more heart on the Models panel.
 
+<p align="center">
+  <img src="docs/spin.gif" width="600" alt="A swipe spins the heart like a trackball in any direction">
+  <br><sub>A swipe spins the heart; pointing at it again stops it. All clips were recorded in the editor's preview.</sub>
+</p>
+
 ## Where the idea came from
 
 In dentistry, 3D imaging already supports specialists' decisions every day. Cone beam CT software is how many of them
@@ -45,6 +50,10 @@ not code: protecting patient data (LGPD, HIPAA, GDPR) and getting regulatory app
 > decisions.
 
 ## What is in it
+
+| Peel the layers | Tap for a name | Compare hearts |
+| :---: | :---: | :---: |
+| <img src="docs/layers.gif" width="260" alt="The wall button steps the muscle wall from solid to see-through"> | <img src="docs/highlight.gif" width="260" alt="Tapping the aorta greys out the rest of the heart and shows its name"> | <img src="docs/compare.gif" width="260" alt="Switching between hearts from different people, with R and L markers"> |
 
 - **Four example hearts from four people**, shown at their true size relative to each other: the largest is 16 cm tall.
   Each one has its own muscle wall and coronary arteries.
@@ -104,6 +113,11 @@ pip install -r tools/requirements.txt
 python tools/seg_to_glb.py 113.img.nii.gz Assets/Models/heart_113.glb
 ```
 
+<p align="center">
+  <img src="docs/scan.gif" width="320" alt="Axial CT slices of case 91 with the labelled structures in the same colours as the viewer">
+  <br><sub>What the script reads: case 91's CT slices with their labels, in the viewer's colours.</sub>
+</p>
+
 The input is one of the dataset's `segmentations/<case>.img.nii.gz` files (see Data and credits), with these labels:
 1 myocardium, 2 left atrium, 3 left ventricle, 4 right atrium, 5 right ventricle, 6 aorta, 7 pulmonary artery, 8 left
 atrial appendage, 9 coronary arteries, 10 pulmonary veins.
@@ -130,6 +144,7 @@ the order of `HeartRoot`'s children.
 | `Assets/Scripts/HeartLayersUI.ts` | The Models and Layers panels, built from the platform's UI components |
 | `Assets/Models/` | The four hearts, as GLB files |
 | `tools/seg_to_glb.py` | Segmentation to GLB |
+| `docs/` | The clips shown in this README |
 
 ## Data and credits
 
