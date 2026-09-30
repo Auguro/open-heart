@@ -1,26 +1,25 @@
 # Open Heart
 
-[What is in it](#what-is-in-it) · [Controls](#controls) · [Run it](#run-it) · [Add your own heart](#add-your-own-heart) ·
-[Where the idea came from](#where-the-idea-came-from) · [Built without the glasses](#built-without-the-glasses) ·
-[Data and credits](#data-and-credits)
-
-<table>
-  <tr>
-    <th width="50%">The 30-second demo</th>
-    <th width="50%">Using it in the editor's preview</th>
-  </tr>
-  <tr>
-    <td><video src="https://github.com/user-attachments/assets/4d1c8038-4b75-45ff-b831-683b5a205422" controls width="100%"></video></td>
-    <td><video src="https://github.com/user-attachments/assets/d2f8532b-f821-4ea9-ac5d-a2a04683cd01" controls muted width="100%"></video></td>
-  </tr>
-</table>
-
 Open Heart turns a cardiac CT scan into a 3D heart that stands in the room with you. A Python script converts the
 scan's segmentation into a model, and the viewer lets you peel it layer by layer, point at a structure to see its
 name, and compare it with other hearts.
 
 Four hearts from a public dataset come with the project as examples. The point is the path from scan to model: bring
 your own segmentation, run one command, and it becomes one more heart on the Models panel.
+
+<p align="center">
+  <a href="#what-is-in-it">What is in it</a> ·
+  <a href="#controls">Controls</a> ·
+  <a href="#run-it">Run it</a> ·
+  <a href="#add-your-own-heart">Add your own heart</a> ·
+  <a href="#where-the-idea-came-from">Where the idea came from</a> ·
+  <a href="#built-without-the-glasses">Built without the glasses</a> ·
+  <a href="#data-and-credits">Data and credits</a>
+</p>
+
+https://github.com/user-attachments/assets/4d1c8038-4b75-45ff-b831-683b5a205422
+
+https://github.com/user-attachments/assets/d2f8532b-f821-4ea9-ac5d-a2a04683cd01
 
 ## Where the idea came from
 
