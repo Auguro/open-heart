@@ -23,6 +23,8 @@ https://github.com/user-attachments/assets/d2f8532b-f821-4ea9-ac5d-a2a04683cd01
 
 ## Where the idea came from
 
+<img src="docs/cbct-skull.jpg" align="right" width="190" alt="Cone beam CT volume rendering of the jaws and teeth">
+
 In dentistry, 3D imaging already supports specialists' decisions every day. Cone beam CT software is how many of them
 look at a tooth before treating it, and the case for it was made with data: in Estrela et al. (2008), periapical and
 panoramic radiographs found only 55% and 28% of the apical periodontitis lesions that cone beam CT showed.[^1]
@@ -120,6 +122,9 @@ would help a lot: open an issue with what worked and what did not.
 running a webcam app works. The editor mirrors webcam input, so flip the image horizontally in the webcam app to undo
 it. Webcam hand tracking is much rougher than the glasses', so swipes and pinches work less reliably there.
 
+**Working with an AI coding assistant?** Give it [`docs/ai-guide.md`](docs/ai-guide.md): the rules the code relies on,
+how to check a change, and the problems that were already solved.
+
 ## Add your own heart
 
 `tools/seg_to_glb.py` turns a whole-heart segmentation (NIfTI) into a GLB with one mesh per structure. It was tested
@@ -161,7 +166,7 @@ the order of `HeartRoot`'s children.
 | `Assets/Scripts/HeartLayersUI.ts` | The Models and Layers panels, built from the platform's UI components |
 | `Assets/Models/` | The four hearts, as GLB files |
 | `tools/seg_to_glb.py` | Segmentation to GLB |
-| `docs/` | The clips shown in this README |
+| `docs/` | The clips and images in this README, and `ai-guide.md` for AI coding assistants |
 
 ## Data and credits
 
@@ -184,7 +189,11 @@ The dataset has no diagnoses, so none are shown.
 The models were meshed, smoothed and reposed from the dataset. Only the left ventricle's muscle is labelled there, so
 the rest of the muscle wall is an approximation, and the Layers panel says so.
 
+The cone beam CT image in "Where the idea came from" is
+[*Cbct skull.jpg*](https://commons.wikimedia.org/wiki/File:Cbct_skull.jpg) by Emailshankar, from Wikimedia Commons,
+licensed [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
+
 ## License
 
-Code: MIT (see `LICENSE`). Heart models: CC BY 4.0, as above. The packages in `Packages/` belong to their
-authors and keep their own licenses.
+Code: MIT (see `LICENSE`). Heart models: CC BY 4.0, as above. The cone beam CT image: CC BY 3.0, as above. The packages
+in `Packages/` belong to their authors and keep their own licenses.
